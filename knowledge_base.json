@@ -1,0 +1,170 @@
+{
+    "general": {
+        "robot_name": "Vision Voice Assistant",
+        "version": "1.0",
+        "created_date": "2025-05-05",
+        "capabilities": [
+            "voice recognition",
+            "face detection",
+            "emotion recognition",
+            "object detection",
+            "hand gesture recognition",
+            "knowledge retrieval",
+            "reminders and timers",
+            "weather information",
+            "news updates",
+            "location services"
+        ]
+    },
+    "commands": {
+        "hello": "Greeting recognized. Hello there!",
+        "hola": "Namaste",
+        "how are you": "I'm functioning normally. Thank you for asking.",
+        "what time is it": "I can tell you the current time.",
+        "what is your name": "I am the Vision Voice Assistant, your helpful robot companion.",
+        "tell me a joke": "Why don't scientists trust atoms? Because they make up everything!",
+        "good morning": "Good morning! I hope you have a wonderful day ahead.",
+        "good night": "Good night! Rest well and have sweet dreams.",
+        "thank you": "You're welcome! I'm happy to help.",
+        "what can you do": "I can recognize faces, detect emotions, understand hand gestures, answer questions, set reminders, check the weather, read news, and much more!",
+        "help": "I can assist you with information, reminders, timers, weather updates, and news. Just ask me what you need!",
+        "stop listening": "I'll stop listening now. Just say 'hey robot' when you need me again."
+    },
+    "facts": {
+        "earth": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+        "water": "Water covers about 71% of the Earth's surface.",
+        "human_body": "The human body contains approximately 60% water.",
+        "python": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.\nPython is dynamically type-checked and garbage-collected.",
+        "where we find a snake": "S. D. Bob \"Snake\" Plissken is a fictional character who served as the protagonist of the films Escape from New York (1981) and Escape from L.A. (1996). Portrayed by Kurt Russell, the character was created by John Carpenter and Nick Castle. An antihero, Plissken is a former U.S. Green Berets lieutenant who served in the Soviet Union during World War III, for which he was awarded two Purple Hearts, before turning to a life of crime.",
+        "moon": "The Moon is Earth's only natural satellite. It is the fifth largest satellite in the Solar System and the largest and most massive relative to its parent planet.",
+        "sun": "The Sun is the star at the center of our Solar System. It's a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core.",
+        "mars": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, larger only than Mercury.",
+        "jupiter": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets combined.",
+        "saturn": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.",
+        "human brain": "The human brain contains approximately 86 billion neurons and weighs about 3 pounds (1.4 kg).",
+        "ocean": "The deepest known point on Earth is the Challenger Deep in the Mariana Trench, which reaches a depth of about 36,200 feet (11,000 meters).",
+        "mount everest": "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation is 29,032 feet (8,849 meters).",
+        "amazon rainforest": "The Amazon Rainforest produces more than 20% of the world's oxygen and contains more than 40,000 plant species.",
+        "great barrier reef": "The Great Barrier Reef is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometers.",
+        "eiffel tower": "The Eiffel Tower was built for the 1889 World's Fair in Paris and stands 324 meters (1,063 feet) tall.",
+        "taj mahal": "The Taj Mahal is an ivory-white marble mausoleum in Agra, India, built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+        "artificial intelligence": "Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans.",
+        "machine learning": "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.",
+        "computer vision": "Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world. It enables machines to derive meaningful information from digital images, videos and other visual inputs.",
+        "internet": "The Internet is a global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to communicate between networks and devices.",
+        "world wide web": "The World Wide Web (WWW) is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs) and are accessible via the Internet.",
+        "quantum computing": "Quantum computing is a type of computation that harnesses the collective properties of quantum states, such as superposition, interference, and entanglement, to perform calculations.",
+        "blockchain": "Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. It is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems."
+    },
+    "locations": {
+        "home": {
+            "latitude": 0,
+            "longitude": 0,
+            "description": "Home base location"
+        },
+        "work": {
+            "latitude": 0,
+            "longitude": 0,
+            "description": "Work location"
+        },
+        "school": {
+            "latitude": 0,
+            "longitude": 0,
+            "description": "School location"
+        },
+        "grocery store": {
+            "latitude": 0,
+            "longitude": 0,
+            "description": "Nearest grocery store"
+        },
+        "hospital": {
+            "latitude": 0,
+            "longitude": 0,
+            "description": "Nearest hospital"
+        }
+    },
+    "preferences": {
+        "voice_rate": 175,
+        "voice_volume": 1.0,
+        "detection_confidence": 0.7,
+        "theme": "default",
+        "notification_sound": "enabled",
+        "startup_greeting": "enabled",
+        "voice_recognition_sensitivity": "medium",
+        "privacy_mode": "standard"
+    },
+    "user_data": {
+        "name": "User",
+        "face_id": null,
+        "preferences": {
+            "greeting": "Hello User, how can I help you today?"
+        },
+        "favorite_topics": [
+            "technology",
+            "science",
+            "nature"
+        ],
+        "interests": [
+            "robotics",
+            "programming",
+            "artificial intelligence"
+        ]
+    },
+    "recipes": {
+        "pancakes": {
+            "ingredients": [
+                "1 cup all-purpose flour",
+                "2 tablespoons sugar",
+                "2 teaspoons baking powder",
+                "1/2 teaspoon salt",
+                "1 cup milk",
+                "2 tablespoons melted butter",
+                "1 egg"
+            ],
+            "instructions": "Mix dry ingredients. Add wet ingredients and stir until just combined. Cook on a hot griddle until bubbles form, then flip and cook until golden brown."
+        },
+        "vegetable soup": {
+            "ingredients": [
+                "2 tablespoons olive oil",
+                "1 onion, chopped",
+                "2 carrots, chopped",
+                "2 celery stalks, chopped",
+                "4 cups vegetable broth",
+                "1 can diced tomatoes",
+                "1 cup mixed vegetables",
+                "Salt and pepper to taste"
+            ],
+            "instructions": "Sauté onion, carrots, and celery in oil until soft. Add broth, tomatoes, and vegetables. Simmer for 20 minutes. Season with salt and pepper."
+        }
+    },
+    "exercises": {
+        "push-ups": {
+            "description": "A classic upper body exercise that works the chest, shoulders, and triceps.",
+            "instructions": "Start in a plank position with hands shoulder-width apart. Lower your body until your chest nearly touches the floor, then push back up."
+        },
+        "squats": {
+            "description": "A lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+            "instructions": "Stand with feet shoulder-width apart. Lower your body by bending your knees and pushing your hips back, as if sitting in a chair. Return to standing position."
+        },
+        "plank": {
+            "description": "A core strengthening exercise that also engages the shoulders, arms, and glutes.",
+            "instructions": "Start in a push-up position, then bend your elbows and rest your weight on your forearms. Keep your body in a straight line from head to feet. Hold the position."
+        }
+    },
+    "quotes": {
+        "inspiration": [
+            "The only way to do great work is to love what you do. - Steve Jobs",
+            "In the middle of difficulty lies opportunity. - Albert Einstein",
+            "It does not matter how slowly you go as long as you do not stop. - Confucius",
+            "Believe you can and you're halfway there. - Theodore Roosevelt",
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt"
+        ],
+        "motivation": [
+            "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
+            "The best way to predict the future is to create it. - Peter Drucker",
+            "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+            "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
+            "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt"
+        ]
+    }
+}
