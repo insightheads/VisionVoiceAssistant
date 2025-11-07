@@ -1,0 +1,7 @@
+speechrecognition
+pyttsx3
+transformers
+torch
+soundfile
+scikit-learn
+numpy
